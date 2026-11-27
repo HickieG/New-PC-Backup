@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Store Page</title>
+</head>
+<body>
+
+    <section>
+        <h2>Customized Products</h2>
+            <p id="cart-count">Cart: 0 items</p>
+            <ul class="product-list">
+                <li class="product-item">
+                    <button class="product-button" data-target="laserPlaceholder">LASER-ENGRAVED ITEMS</button>
+                    <div id="laserPlaceholder" class="placeholder-box">Product Photo</div>
+                    <button id="addLaserButton" class="add-to-cart">Add to Cart</button>
+                </li>
+                <li class="product-item">
+                    <button class="product-button" data-target="jewelryPlaceholder">HANDCRAFTED JEWELRY</button>
+                    <div id="jewelryPlaceholder" class="placeholder-box">Product Photo</div>
+                    <button id="addJewelryButton" class="add-to-cart">Add to Cart</button>
+                </li>
+                <li class="product-item">
+                    <button class="product-button" data-target="bobaPlaceholder">BOBA TEA <br>SET</button>
+                    <!-- Added a break in the text for "boba tea set" making the button two lines and aligning it with the others -->
+                    <div id="bobaPlaceholder" class="placeholder-box">Product Photo</div>
+                    <button id="addBobaButton" class="add-to-cart">Add to Cart</button>
+                </li>
+                <!-- Each item now pairs its button with its own placeholder box, so alignment stays in sync automatically -->
+            </ul>
+        <script src="webpagejava.js"></script>
+    </section>
+</body>
+
+<footer>
+        <p>Copyright 2024 River Junction Design Studio</p>
+</footer>
